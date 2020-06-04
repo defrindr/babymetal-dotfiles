@@ -3,6 +3,14 @@
 My personal dotfiles,
 
 ## Usage
+* Clone this repo
+```
+git clone https://github.com/defrindr/dotfiles.babymetal_edition.git
+```
+* Open dotfiles.babymetal_edition folder
+```
+cd dotfiles.babymetal_edition
+```
 * Move ```wp_babymetaru.jpg``` to ```/usr/share/wallpapers```
 ```
 mv wp_babymetaru.png /usr/share/wallpapers
