@@ -16,10 +16,10 @@ cd dotfiles.babymetal_edition
 mv wp_babymetaru.png /usr/share/wallpapers
 ``` 
 * Move files/folder in below to ```~/``` 
-** .Xresources
-** .moc
-** .zshrc
-** .config
+  * .Xresources
+  * .moc
+  * .zshrc
+  * .config
 
 ## Screenshot
 
