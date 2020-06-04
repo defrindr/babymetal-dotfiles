@@ -16,10 +16,10 @@ mv wp_babymetaru.png /usr/share/wallpapers
 ## Screenshot
 
 ![Screen Clean](screenshot/clear_screen.png)
-![Glava](screenshow/glava.png)
+![Glava](screenshot/glava.png)
 ![Multiple Terminal](screenshot/multiple_terminal.png)
 ![NeoFetch](screenshot/neofetch.png)
-![Rofi](screenshot/rofi.png)
+![Rofi](screenshot/rofi.jpg)
 
 
 ## References Configuration
