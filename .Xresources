@@ -1,0 +1,85 @@
+URxvt.buffered: true
+URxvt*urgentOnBell: true
+URxvt*visualBell:   true
+URxvt.keysym.Shift-Control-V: perl:clipboard:paste
+URxvt.iso14755: False
+URxvt.perl-ext-common: default,clipboard,font-size,matcher
+URxvt.url-launcher: /usr/bin/xdg-open
+URxvt.matcher.button: 1
+URxvt*termName: rxvt-unicode-256color
+URxvt.transparent: false
+URxvt*background: #151515
+!URxvt*background: #3d518c
+URxvt.scrollBar: false
+Xft.antialias: true
+Xft.hinting: true
+Xft.hintstyle: hintfull
+Xft.dpi: 96
+Xft.rgba: rgb
+URxvt.font: xft:Meslo LG S for Powerline:pixelsize=12
+URxvt.internalBorder: 20
+URxvt.perl-ext: default,url-select
+URxvt.keysym.M-u: perl:url-select:select_next
+URxvt.url-select.launcher: /usr/bin/xdg-open
+URxvt.url-select.underline: true
+
+URxvt.keysym.C-Up:     perl:font-size:increase
+URxvt.keysym.C-Down:   perl:font-size:decrease
+URxvt.keysym.C-S-Up:   perl:font-size:incglobal
+URxvt.keysym.C-S-Down: perl:font-size:decglobal
+
+
+!! Colorscheme
+
+! special
+*.foreground: #afbfbf
+!*.foreground: #000000
+!*.background: #141c21
+*.background: #454545
+*.cursorColor: #afbfbf
+
+! black
+!*.color0: #263640
+*.color0: #151515
+*.color8: #4a697d
+!*.color8: #fff
+
+! red
+*.color1: #c92223
+!*.color9: #020202
+*.color9: #ee9963
+
+! green
+*.color2: #819400
+*.color10: #a4bd00
+!*.color10: #fff
+
+! yellow
+!*.color3: #b08500
+*.color3: #AEAEAE
+*.color11: #d9a400
+
+! blue -> maroon
+!*.color4: #2587cc
+!*.color4: #263640
+!*.color12: #2ca2f5
+*.color4: #C92223
+*.color12: #990203
+
+! magenta
+*.color5: #696ebf
+!*.color5: #c92223
+!*.color13: #FFF
+!*.color13: #8086e8
+*.color13: #c92223
+
+! cyan - maroon
+!*.color6: #289c93
+!*.color14: #FFF
+!*.color14: #33c5ba
+*.color6: #c92223
+*.color14: #c92223
+
+! white
+*.color7: #bfbaac
+*.color15: #fdf6e3
